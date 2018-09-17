@@ -528,6 +528,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a09e396e0acd54187518e3ca221885, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Android_Admob_Banner_ID: ca-app-pub-3940256099942544/6300978111
+  Android_Admob_Interstitial_ID: ca-app-pub-3940256099942544/1033173712
+  testMode: 1
+  showBanner: 0
+  showInterstitial: 1
 --- !u!1 &736701348
 GameObject:
   m_ObjectHideFlags: 0

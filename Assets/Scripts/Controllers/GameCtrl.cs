@@ -104,6 +104,9 @@ public class GameCtrl : MonoBehaviour {
         DataCtrl.instance.SaveData(data);
 
         Time.timeScale = 1;
+
+        //Hide the AdMob banner
+        AdsCtrl.instance.HideBanner();
     }
 
     /// <summary>
@@ -447,6 +450,12 @@ public class GameCtrl : MonoBehaviour {
 
         //show Game Over menu with sliding animation
         ui.panelGameOver.gameObject.GetComponent<RectTransform>().DOAnchorPosY(0,0.7f,false);
+
+        //show AdMob banner
+        AdsCtrl.instance.ShowBanner();
+
+        //show an Interstitial Ad
+        AdsCtrl.instance.ShowInterstitial();
     }
 
     /// <summary>
@@ -461,6 +470,12 @@ public class GameCtrl : MonoBehaviour {
 
         //animate the pause panel
         ui.panelPause.gameObject.GetComponent<RectTransform>().DOAnchorPosY(0,0.7f, false);
+
+        //show the AdMob banner
+        AdsCtrl.instance.ShowBanner();
+
+        //show an Interstitial Ad
+        AdsCtrl.instance.ShowInterstitial();
 
         Invoke("SetPause", 1.1f);
     }
@@ -486,6 +501,7 @@ public class GameCtrl : MonoBehaviour {
         //animate the pause panel
         ui.panelPause.gameObject.GetComponent<RectTransform>().DOAnchorPosY(600f, 0.7f, false);
 
-
+        //Hide the AdMob banner
+        AdsCtrl.instance.HideBanner();
     }
 }

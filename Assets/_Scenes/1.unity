@@ -26451,12 +26451,32 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 114459189351721084, guid: 00ca3a5620daddc48b8b42af538c0912,
+    - target: {fileID: 223706808571982948, guid: 00ca3a5620daddc48b8b42af538c0912,
+        type: 2}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1102681391}
+    - target: {fileID: 114815540053102340, guid: 00ca3a5620daddc48b8b42af538c0912,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 696353569}
-    - target: {fileID: 114459189351721084, guid: 00ca3a5620daddc48b8b42af538c0912,
+    - target: {fileID: 114865123701689190, guid: 00ca3a5620daddc48b8b42af538c0912,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 696353569}
+    - target: {fileID: 223689818883176958, guid: 00ca3a5620daddc48b8b42af538c0912,
+        type: 2}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1102681391}
+    - target: {fileID: 114265295740855086, guid: 00ca3a5620daddc48b8b42af538c0912,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 696353569}
+    - target: {fileID: 114265295740855086, guid: 00ca3a5620daddc48b8b42af538c0912,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -26466,36 +26486,35 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1102681391}
-    - target: {fileID: 114265295740855086, guid: 00ca3a5620daddc48b8b42af538c0912,
+    - target: {fileID: 114459189351721084, guid: 00ca3a5620daddc48b8b42af538c0912,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 696353569}
-    - target: {fileID: 114265295740855086, guid: 00ca3a5620daddc48b8b42af538c0912,
+    - target: {fileID: 114459189351721084, guid: 00ca3a5620daddc48b8b42af538c0912,
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 696353569}
-    - target: {fileID: 223689818883176958, guid: 00ca3a5620daddc48b8b42af538c0912,
+    - target: {fileID: 1398096876255164, guid: 00ca3a5620daddc48b8b42af538c0912, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224007666771541354, guid: 00ca3a5620daddc48b8b42af538c0912,
         type: 2}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1102681391}
-    - target: {fileID: 114865123701689190, guid: 00ca3a5620daddc48b8b42af538c0912,
+      propertyPath: m_AnchoredPosition.y
+      value: -152.00002
+      objectReference: {fileID: 0}
+    - target: {fileID: 224465266683474104, guid: 00ca3a5620daddc48b8b42af538c0912,
         type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 696353569}
-    - target: {fileID: 114815540053102340, guid: 00ca3a5620daddc48b8b42af538c0912,
+      propertyPath: m_AnchoredPosition.y
+      value: -152
+      objectReference: {fileID: 0}
+    - target: {fileID: 224538783049792738, guid: 00ca3a5620daddc48b8b42af538c0912,
         type: 2}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 696353569}
-    - target: {fileID: 223706808571982948, guid: 00ca3a5620daddc48b8b42af538c0912,
-        type: 2}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1102681391}
+      propertyPath: m_AnchoredPosition.y
+      value: -152.00002
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00ca3a5620daddc48b8b42af538c0912, type: 2}
   m_IsPrefabAsset: 0
